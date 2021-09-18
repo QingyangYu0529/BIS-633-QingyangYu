@@ -20,7 +20,7 @@ Any comments or insights would be greatly appreciated.
 
 ### Data processing
 
-1)All codes written in python. Code files are .ipynv format.
+1)All codes written in python. Code files are .ipynb format.
 
 First I imported library pandas to load dataset "BRFSS_19_data.csv".
 
