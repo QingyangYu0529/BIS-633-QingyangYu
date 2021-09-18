@@ -6,10 +6,9 @@ This readme file contains:
 
 1)Explanation on the process of data processing.
 
-2)Discussion on any steps in the process (or processing the data in general) that could potentially lead to errors in reporting.
+2)Answer of bonus question.
 
-3)Answer of bonus question.
-
+3)Discussion on any steps in the process (or processing the data in general) that could potentially lead to errors in reporting.
 
 ## Support
 If you have any question, please feel free to [contact me](https://github.com/QingyangYu0529/BIS-633-QingyangYu#Maintainer).
