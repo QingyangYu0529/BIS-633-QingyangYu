@@ -40,7 +40,7 @@ According to the [LLCP 2019 Codebook Report document of the Behavioral Risk Fact
 
 Then I used groupby to group all the people that favourite jogging by gender, the result was saved into the list data_jogging_by_sex.
 
-<img src="https://github.com/QingyangYu0529/BIS-633-QingyangYu/blob/main/Figures-in-running-result/data_jogging_by_sex.jpg" style="zoom:150%;" />
+<img src="https://github.com/QingyangYu0529/BIS-633-QingyangYu/blob/main/Figures-in-running-result/data_jogging_by_sex.jpg" style="zoom:120%;" />
 
 > According to the running result, number of male respondents who selected the activity 'Jogging' is 1439. While number of female respondents who selected the activity 'Jogging' is 832.
 
@@ -58,11 +58,11 @@ First, I removed all the 'NaN' from dataframe data_CT, the result was saved into
 
 Then I extracted the column 'HTIN4', the result was saved into the list data_CT_height.
 
-<img src="https://github.com/QingyangYu0529/BIS-633-QingyangYu/blob/main/Figures-in-running-result/data_CT_height.jpg" style="zoom:150%;" />
+<img src="https://github.com/QingyangYu0529/BIS-633-QingyangYu/blob/main/Figures-in-running-result/data_CT_height.jpg" style="zoom:120%;" />
 
 To get the average height of people living in Connecticut, I calculated the average height(unit: inch), then transferred the unit into meters, and printed the result.
 
-<img src="https://github.com/QingyangYu0529/BIS-633-QingyangYu/blob/main/Figures-in-running-result/print_result_avg_height.jpg" style="zoom:150%;" />
+<img src="https://github.com/QingyangYu0529/BIS-633-QingyangYu/blob/main/Figures-in-running-result/print_result_avg_height.jpg" style="zoom:120%;" />
 
 
 ### Discussion on potential errors
