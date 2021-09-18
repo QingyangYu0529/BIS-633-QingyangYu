@@ -1,4 +1,4 @@
-# Readme for homework3
+# Readme for homework3 question2
 
 ## Instruction
 
@@ -12,7 +12,7 @@ This readme file contains:
 
 
 ## Support
-If you have any question, please feel free to [contact me].(https://github.com/QingyangYu0529/BIS-633-QingyangYu#Maintainer)
+If you have any question, please feel free to [contact me](https://github.com/QingyangYu0529/BIS-633-QingyangYu#Maintainer).
 
 Any comments or insights would be greatly appreciated.
 
@@ -67,12 +67,25 @@ To get the average height of people living in Connecticut, I calculated the aver
 
 ### Discussion on potential errors
 
-1)
+1) We need to understand the data before data analysis! 
 
+In most of the cases, the details about data are in the notebook/codebook, which is also provided on the website.
 
+Before data processing, it is important to know the meaning of each column in BRFS File, which could be found in the [LLCP 2019 Codebook Report document of the Behavioral Risk Factor Surveillance System](https://www.cdc.gov/brfss/annual_data/2019/pdf/codebook19_llcp-v2-508.HTML).
 
+2) Always choose the data that is easier to manage!
 
+Compared with the column 'HEIGHT3', column 'HTIN4' and 'HTM4' has fewer types of values, which means they are easier to be analyzed.
 
+3) Be careful about the object to be analyzed!
+
+Which part of the data is considered? Which part of the data should be eliminated? Errors may occur if we do not think of these questions.
+
+For instance, when I am asked to provide the number of male and female respondents who selected that same activity, I first used the data from the last step, which includes only respondents in the state of Connecticut. Then I realized these two questions are parallel, and I should use the whole data.
+
+4) Be careful about the details of the data!
+
+When I calculated the average height for a person in the Connecticut, it is rather important to know the unit of the data placed in that column, and to remove the blank value before calculation.
 
 
 
@@ -80,7 +93,7 @@ To get the average height of people living in Connecticut, I calculated the aver
 
 ## Data source
 
-Data of homework 4 question 2 comes from [BRFS File] (https://yale.instructure.com/courses/70309/files/5377487/download).
+Data of homework 4 question 2 comes from [BRFS File](https://yale.instructure.com/courses/70309/files/5377487/download).
 
 
 All details about data comes from [LLCP 2019 Codebook Report document of the Behavioral Risk Factor Surveillance System](https://www.cdc.gov/brfss/annual_data/2019/pdf/codebook19_llcp-v2-508.HTML)
